@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05ADF553161AAA7500BB434C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05ADF552161AAA7500BB434C /* UIKit.framework */; };
+		05ADF555161AAA7500BB434C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05ADF554161AAA7500BB434C /* Foundation.framework */; };
+		05ADF557161AAA7500BB434C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05ADF556161AAA7500BB434C /* CoreGraphics.framework */; };
+		05ADF55D161AAA7500BB434C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05ADF55B161AAA7500BB434C /* InfoPlist.strings */; };
+		05ADF563161AAA7500BB434C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05ADF562161AAA7500BB434C /* AppDelegate.m */; };
+		05ADF566161AAA7500BB434C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05ADF565161AAA7500BB434C /* ViewController.m */; };
+		05ADF569161AAA7500BB434C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05ADF567161AAA7500BB434C /* ViewController.xib */; };
+		05ADF571161AAA7500BB434C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05ADF570161AAA7500BB434C /* SenTestingKit.framework */; };
+		05ADF572161AAA7500BB434C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05ADF552161AAA7500BB434C /* UIKit.framework */; };
+		05ADF573161AAA7500BB434C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05ADF554161AAA7500BB434C /* Foundation.framework */; };
+		05ADF589161AAE4900BB434C /* app_data in Resources */ = {isa = PBXBuildFile; fileRef = 05ADF588161AAE4900BB434C /* app_data */; };
+		150995C0164A6164005F53D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 150995BF164A6164005F53D5 /* main.m */; };
+		15E9D07516D618FD00ED239D /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E9D07416D618FD00ED239D /* back.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05ADF574161AAA7500BB434C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05ADF545161AAA7400BB434C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05ADF54D161AAA7500BB434C;
+			remoteInfo = iPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05ADF54E161AAA7500BB434C /* iPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05ADF552161AAA7500BB434C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05ADF554161AAA7500BB434C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05ADF556161AAA7500BB434C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05ADF55A161AAA7500BB434C /* iPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iPlayer-Info.plist"; path = "iPlayer/iPlayer-Info.plist"; sourceTree = "<group>"; };
+		05ADF55C161AAA7500BB434C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05ADF560161AAA7500BB434C /* iPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "iPlayer-Prefix.pch"; path = "iPlayer/iPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		05ADF561161AAA7500BB434C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = iPlayer/AppDelegate.h; sourceTree = "<group>"; };
+		05ADF562161AAA7500BB434C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = iPlayer/AppDelegate.m; sourceTree = "<group>"; };
+		05ADF564161AAA7500BB434C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = iPlayer/ViewController.h; sourceTree = "<group>"; };
+		05ADF565161AAA7500BB434C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = iPlayer/ViewController.m; sourceTree = "<group>"; };
+		05ADF568161AAA7500BB434C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		05ADF56F161AAA7500BB434C /* iPlayerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPlayerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05ADF570161AAA7500BB434C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		05ADF588161AAE4900BB434C /* app_data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = app_data; path = ../iPlayer_DATA/demo/rhinocort/app_data; sourceTree = SOURCE_ROOT; };
+		150995BF164A6164005F53D5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = iPlayer/main.m; sourceTree = "<group>"; };
+		15E9D07416D618FD00ED239D /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = ../iPlayer_DATA/demo/rhinocort/app_data/back.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05ADF54B161AAA7500BB434C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05ADF553161AAA7500BB434C /* UIKit.framework in Frameworks */,
+				05ADF555161AAA7500BB434C /* Foundation.framework in Frameworks */,
+				05ADF557161AAA7500BB434C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05ADF56B161AAA7500BB434C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05ADF571161AAA7500BB434C /* SenTestingKit.framework in Frameworks */,
+				05ADF572161AAA7500BB434C /* UIKit.framework in Frameworks */,
+				05ADF573161AAA7500BB434C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05ADF543161AAA7400BB434C = {
+			isa = PBXGroup;
+			children = (
+				05ADF558161AAA7500BB434C /* iPlayer */,
+				05ADF551161AAA7500BB434C /* Frameworks */,
+				05ADF54F161AAA7500BB434C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05ADF54F161AAA7500BB434C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05ADF54E161AAA7500BB434C /* iPlayer.app */,
+				05ADF56F161AAA7500BB434C /* iPlayerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05ADF551161AAA7500BB434C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05ADF552161AAA7500BB434C /* UIKit.framework */,
+				05ADF554161AAA7500BB434C /* Foundation.framework */,
+				05ADF556161AAA7500BB434C /* CoreGraphics.framework */,
+				05ADF570161AAA7500BB434C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05ADF558161AAA7500BB434C /* iPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				05ADF588161AAE4900BB434C /* app_data */,
+				05ADF561161AAA7500BB434C /* AppDelegate.h */,
+				05ADF562161AAA7500BB434C /* AppDelegate.m */,
+				05ADF564161AAA7500BB434C /* ViewController.h */,
+				05ADF565161AAA7500BB434C /* ViewController.m */,
+				05ADF567161AAA7500BB434C /* ViewController.xib */,
+				05ADF559161AAA7500BB434C /* Supporting Files */,
+			);
+			name = iPlayer;
+			sourceTree = "<group>";
+		};
+		05ADF559161AAA7500BB434C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15E9D07416D618FD00ED239D /* back.png */,
+				150995BF164A6164005F53D5 /* main.m */,
+				05ADF55A161AAA7500BB434C /* iPlayer-Info.plist */,
+				05ADF55B161AAA7500BB434C /* InfoPlist.strings */,
+				05ADF560161AAA7500BB434C /* iPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05ADF54D161AAA7500BB434C /* iPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05ADF581161AAA7500BB434C /* Build configuration list for PBXNativeTarget "iPlayer" */;
+			buildPhases = (
+				05ADF54A161AAA7500BB434C /* Sources */,
+				05ADF54B161AAA7500BB434C /* Frameworks */,
+				05ADF54C161AAA7500BB434C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPlayer;
+			productName = iPlayer;
+			productReference = 05ADF54E161AAA7500BB434C /* iPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05ADF56E161AAA7500BB434C /* iPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05ADF584161AAA7500BB434C /* Build configuration list for PBXNativeTarget "iPlayerTests" */;
+			buildPhases = (
+				05ADF56A161AAA7500BB434C /* Sources */,
+				05ADF56B161AAA7500BB434C /* Frameworks */,
+				05ADF56C161AAA7500BB434C /* Resources */,
+				05ADF56D161AAA7500BB434C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05ADF575161AAA7500BB434C /* PBXTargetDependency */,
+			);
+			name = iPlayerTests;
+			productName = iPlayerTests;
+			productReference = 05ADF56F161AAA7500BB434C /* iPlayerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05ADF545161AAA7400BB434C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 05ADF548161AAA7400BB434C /* Build configuration list for PBXProject "iPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05ADF543161AAA7400BB434C;
+			productRefGroup = 05ADF54F161AAA7500BB434C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05ADF54D161AAA7500BB434C /* iPlayer */,
+				05ADF56E161AAA7500BB434C /* iPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05ADF54C161AAA7500BB434C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05ADF55D161AAA7500BB434C /* InfoPlist.strings in Resources */,
+				05ADF569161AAA7500BB434C /* ViewController.xib in Resources */,
+				05ADF589161AAE4900BB434C /* app_data in Resources */,
+				15E9D07516D618FD00ED239D /* back.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05ADF56C161AAA7500BB434C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05ADF56D161AAA7500BB434C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05ADF54A161AAA7500BB434C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05ADF563161AAA7500BB434C /* AppDelegate.m in Sources */,
+				05ADF566161AAA7500BB434C /* ViewController.m in Sources */,
+				150995C0164A6164005F53D5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05ADF56A161AAA7500BB434C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05ADF575161AAA7500BB434C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05ADF54D161AAA7500BB434C /* iPlayer */;
+			targetProxy = 05ADF574161AAA7500BB434C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05ADF55B161AAA7500BB434C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05ADF55C161AAA7500BB434C /* en */,
+			);
+			name = InfoPlist.strings;
+			path = iPlayer;
+			sourceTree = "<group>";
+		};
+		05ADF567161AAA7500BB434C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05ADF568161AAA7500BB434C /* en */,
+			);
+			name = ViewController.xib;
+			path = iPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05ADF57F161AAA7500BB434C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dr Communication";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dr Communication";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "088015B0-EEC5-48F5-A7EB-C198AA21E7C0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "088015B0-EEC5-48F5-A7EB-C198AA21E7C0";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		05ADF580161AAA7500BB434C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dr Communication";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dr Communication";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "088015B0-EEC5-48F5-A7EB-C198AA21E7C0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "088015B0-EEC5-48F5-A7EB-C198AA21E7C0";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05ADF582161AAA7500BB434C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dr Communication";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dr Communication";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPlayer/iPlayer-Prefix.pch";
+				INFOPLIST_FILE = "/Users/lamkhung/Desktop/iPlayer_DATA/demo/rhinocort/app_data/iPlayer-Info.plist";
+				New_Setting = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "59871ABF-FC4C-4B92-885B-E31032C64F6A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "59871ABF-FC4C-4B92-885B-E31032C64F6A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05ADF583161AAA7500BB434C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dr Communication";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dr Communication";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPlayer/iPlayer-Prefix.pch";
+				INFOPLIST_FILE = "/Users/lamkhung/Desktop/iPlayer_DATA/demo/rhinocort/app_data/iPlayer-Info.plist";
+				New_Setting = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "59871ABF-FC4C-4B92-885B-E31032C64F6A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "59871ABF-FC4C-4B92-885B-E31032C64F6A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		05ADF585161AAA7500BB434C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPlayer.app/iPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPlayer/iPlayer-Prefix.pch";
+				INFOPLIST_FILE = "iPlayerTests/iPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		05ADF586161AAA7500BB434C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPlayer.app/iPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPlayer/iPlayer-Prefix.pch";
+				INFOPLIST_FILE = "iPlayerTests/iPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05ADF548161AAA7400BB434C /* Build configuration list for PBXProject "iPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05ADF57F161AAA7500BB434C /* Debug */,
+				05ADF580161AAA7500BB434C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05ADF581161AAA7500BB434C /* Build configuration list for PBXNativeTarget "iPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05ADF582161AAA7500BB434C /* Debug */,
+				05ADF583161AAA7500BB434C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05ADF584161AAA7500BB434C /* Build configuration list for PBXNativeTarget "iPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05ADF585161AAA7500BB434C /* Debug */,
+				05ADF586161AAA7500BB434C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05ADF545161AAA7400BB434C /* Project object */;
+}
